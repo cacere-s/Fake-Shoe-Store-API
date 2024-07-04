@@ -6,8 +6,8 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://buovehny8u3e51dg7qrv-mysql.services.clever-cloud.com:3306/buovehny8u3e51dg7qrv
-    username: uafkifnn3xrxgg7b
-    password: UHKqw6pWyeLw6hdrETGa
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
