@@ -1,6 +1,5 @@
 .gradle
 build/
-Dockerfile
 
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
