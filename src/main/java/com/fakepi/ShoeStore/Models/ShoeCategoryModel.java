@@ -18,6 +18,7 @@ public class ShoeCategoryModel {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
   private String name;
+  private String image;
   @JsonBackReference
   @OneToMany(mappedBy = "category", fetch = FetchType.LAZY)
   private List<ShoeModel> shoe;
